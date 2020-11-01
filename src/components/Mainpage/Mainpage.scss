@@ -1,0 +1,30 @@
+.mainpage {
+  color: white;
+  justify-content: center;
+}
+
+.mainpage__card {
+  background-image: url(../../static/winds.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: opacity 1s, box-shadow 1.5s, text-shadow 1s;
+  // transition: box-shadow 2s;
+  opacity: 0.8;
+}
+
+.mainpage__card:hover {
+  opacity: 1;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.mainpage__dropdown {
+  text-shadow: none;
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.mainpage__title {
+  font-family: 'Itim', cursive;
+}

@@ -1,0 +1,24 @@
+.app {
+  background-color: honeydew;
+  background: linear-gradient(
+    to bottom,
+    hsl(205, 43%, 87%),
+    rgb(250, 210, 226)
+  );
+}
+
+.app {
+  transition: fading 1s;
+}
+
+@keyframes fading {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
